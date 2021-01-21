@@ -1,0 +1,46 @@
+{
+  "type": "app",
+  "name": "my-app",
+  "id": "asd-my-app",
+  "info": {
+    "description": "asd",
+    "author": {
+      "name": "asd",
+      "url": "asd"
+    },
+    "keywords": [
+      "asd"
+    ],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://github.com/grafana/simple-react-panel"
+      },
+      {
+        "name": "License",
+        "url": "https://github.com/grafana/simple-react-panel/blob/master/LICENSE"
+      }
+    ],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "includes": [
+    {
+      "type": "panel",
+      "name": "my-panel"
+    },
+    {
+      "type": "datasource",
+      "name": "my-datasource"
+    }
+  ],
+  "dependencies": {
+    "grafanaVersion": "7.0.x",
+    "plugins": []
+  }
+}
